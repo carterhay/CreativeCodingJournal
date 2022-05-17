@@ -1,0 +1,30 @@
+button {
+    font-size: 2em;
+    color: #5B3758;
+    background-color: #D3F3EE;
+    border: solid #5B3758 1px;
+    box-shadow: #5B3758 2px 2px 5px;
+    border-radius: 0.1em;
+}
+
+button:hover {
+    box-shadow: #C65B7C 2px 2px 3px;
+    color: #C65B7C;
+    border: solid #C65B7C 1px;
+}
+
+
+button:click {
+    box-shadow: #C65B7C 0px 0px 0px;
+    color: #C65B7C;
+    border: solid #C65B7C 1px;
+}
+
+#title {
+    display: inline;
+    float: right;
+    margin-top: 0em;
+    margin-left: 1em; margin-right: 1em;
+    font-size: 2em;
+    color: #5B3758;
+}

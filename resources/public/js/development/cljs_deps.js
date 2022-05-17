@@ -38,4 +38,6 @@ goog.addDependency("../quil/middlewares/navigation_3d.js", ['quil.middlewares.na
 goog.addDependency("../quil/middlewares/navigation_2d.js", ['quil.middlewares.navigation_2d'], ['cljs.core', 'quil.core']);
 goog.addDependency("../quil/middlewares/fun_mode.js", ['quil.middlewares.fun_mode'], ['cljs.core', 'quil.core']);
 goog.addDependency("../quil/middleware.js", ['quil.middleware'], ['cljs.core', 'quil.middlewares.navigation_3d', 'quil.middlewares.navigation_2d', 'quil.middlewares.fun_mode']);
-goog.addDependency("../creative_coding_journal/core.js", ['creative_coding_journal.core'], ['cljs.core', 'quil.core', 'quil.middleware']);
+goog.addDependency("../creative_coding_journal/radius.js", ['creative_coding_journal.radius'], ['cljs.core', 'quil.core', 'quil.middleware']);
+goog.addDependency("../creative_coding_journal/boids.js", ['creative_coding_journal.boids'], ['cljs.core', 'quil.core', 'quil.middleware']);
+goog.addDependency("../creative_coding_journal/core.js", ['creative_coding_journal.core'], ['cljs.core', 'quil.core', 'creative_coding_journal.boids']);
